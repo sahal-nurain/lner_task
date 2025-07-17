@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebooks
+*.ipynb
+
+# Zip and binary artifacts
+*.zip
+*.tar.gz
+*.tar
+*.jar
+*.war
+*.rar
+
+# JSON outputs
+*.json
+
+# Terraform local state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# LocalStack
+localstack/
+
+# VSCode / IDEs
+.vscode/
+.idea/
