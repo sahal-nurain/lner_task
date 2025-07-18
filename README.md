@@ -30,7 +30,10 @@ lner-task/
 - Parses and stores records in a DynamoDB table (`pipeline_status`)
 
 ### ✅ DynamoDB
-- Stores parsed train delay records keyed by `record_id`
+- Stores pipeline states by `record_id`
+  
+### ✅ Dockerized Postgresql DB
+- Stores transformed records at the end of the pipeline
 
 ---
 
